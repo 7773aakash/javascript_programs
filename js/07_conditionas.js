@@ -25,12 +25,13 @@ alert (eligible);
 // } else {
 //   cur_status = '';
 // }
-// alert(cur_status);
+// alert(cur_status); 
+
+//or
 
 let login = prompt("what is your post",'')
 let message = (login == 'Employee') ? 'Hello' :
   (login == 'Director') ? 'Greetings' :
   (login == '') ? 'No login' :
   '';
-
-  
+alert (message);
